@@ -62,7 +62,7 @@ func SPrint(input interface{}) string {
 		}
 		fmt.Printf(red("}"))
 	} else {
-		fmt.Printf("T: %v; V: %v\n", succes(in.Type()), cyan(input))
+		fmt.Printf("%v:\t %v\n", succes(in.Type()), cyan(input))
 	}
 	return ret
 }
